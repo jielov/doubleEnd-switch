@@ -10,6 +10,6 @@
 </template>
 
 <style lang="scss">
-//导入 pc css
-@import "./styles/css-p/reset.scss";
+//导入 移动端 css
+@import "./styles/css-m/reset.scss";
 </style>

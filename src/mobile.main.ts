@@ -1,14 +1,7 @@
-/*
- * @description: 
- * @Author: Jay
- * @Date: 2023-08-07 11:24:01
- * @LastEditors: Jay
- * @LastEditTime: 2023-08-07 11:45:18
- */
 import { createApp } from 'vue'
 import App from './App.vue'
-// main 导入 pc 端路由
-import router from './router/pc/index'
+// mobile.main 导入 mobile 端路由
+import router from './router/mobile/index'
 import store from './store'
 const app = createApp(App)
 
